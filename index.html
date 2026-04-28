@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola soy levi</title>
+    <title>Hola soy Levi</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #ff4d6d;
+        }
+
+        p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .emoji {
+            font-size: 24px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            background-color: #ff4d6d;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #e63956;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Amo programar</h1>
+
+    <div class="card">
+        <h1>ME GUSTA TRAGAR</h1>
+
+        <p>✨ Hola, soy <b>Vanessita</b> 💖</p>
+        <p>🍣 Me gustan los makis (demasiadooo)</p>
+        <p>🎶 Amo la música y bailar como si nadie me viera</p>
+        <p>🍕 Y sinceramente... quiero pizza ahora mismo uwu</p>
+
+        <p class="emoji">💃🍕🍣🎧💖</p>
+
+        <button onclick="mensaje()">Haz clic aquí 😳</button>
+    </div>
+
+    <script>
+        function mensaje() {
+            alert("Si estás viendo esto... tráeme pizza 😤🍕✨");
+        }
+    </script>
+
 </body>
 </html>
