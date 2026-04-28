@@ -1,11 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola soy levi</title>
+    <title>Hola soy Luz</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contenedor {
+            margin-top: 100px;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #1e88e5;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0d47a1;
+        }
+    </style>
 </head>
 <body>
-    <h1>Amo programar</h1>
+
+    <div class="contenedor">
+        <h1>Hola, soy Luz 💻</h1>
+        <p>Amo programar y aprender cosas nuevas cada día.</p>
+        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+    </div>
+
+    <script>
+        function mostrarMensaje() {
+            alert("¡Sigue programando, Luz! Vas por buen camino 🚀");
+        }
+    </script>
+
 </body>
 </html>
